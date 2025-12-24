@@ -1,0 +1,7 @@
+class Solution:
+    def removeDuplicates(self, nums: List[int]) -> int:
+        expectedNums =[]
+        while nums[i] not in expectedNums[]:
+            expectedNums[].push(nums[i])
+            i = i + 1
+        return expectedNums
